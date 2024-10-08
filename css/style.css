@@ -1,3 +1,123 @@
 html {
+    font-size: 24px;
+}
+
+p.tamanho {
     font-size: 20px;
+}
+
+.familia {
+    font-family: sans-serif;
+}
+
+.cor {
+    color: rgb(255, 0, 128);
+}
+
+/* alinhamentos */
+.centralizado {
+    text-align: center;
+}
+
+.esqueda {
+    text-align: left;
+}
+
+.direita {
+    text-align: right;
+}
+
+.justificado {
+    text-align: justify;
+}
+
+div {
+    /* Largura do Elemento */
+    width: 500px;
+    /* Altura do Elemento */
+    height: 200px;
+    /* Bordas */
+    border: 1px solid blue;
+}
+
+.bordas {
+    /* Shorthand */
+    /* border: 2px solid red; */
+    /* Borda Superior */
+    border-top: 10px solid red;
+    /* Borda Direita */
+    border-right: 10px dashed blue;
+    /* Borda Inferior */
+    border-bottom: 10px dotted green;
+    /* Borda Esquerda */
+    border-left: 10px double magenta;
+}
+
+.bg {
+    background-color: lavender;
+}
+
+.border-radius1 {
+    /* Shorthand */
+    width: 200px;
+    border-radius: 50%;
+}
+
+.border-radius2 {
+    /* raio da borda superior esquerda */
+    border-top-left-radius: 30px;
+    /* raio da borda superior direita */
+    border-top-right-radius: 50px;
+    /* raio da borda inferior direita */
+    border-bottom-right-radius: 100px;
+    /* raio da borda inferior esquerda */
+    border-bottom-left-radius: 150px;
+}
+
+.margin1 {
+    /* margin: TOTAL */
+    /* margin: Y e X */
+    /* margin: Topo, Direita, Inferior, Esquerda */
+    margin: 40px 80px 50px 20px;
+}
+
+.margin2 {
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+
+.margin3 {
+    margin-left: 200px;
+}
+
+.padding1 {
+    /* Padding igual para os 4 lados */
+    padding: 40px;
+}
+
+.padding2 {
+    /* Padding para Y e X */
+    padding: 50px 100px;
+}
+
+.padding3 {
+    /* Padding com 4 lados distintos */
+    padding: 10px 20px 30px 40px;
+}
+
+.padding4 {
+    padding-top: 100px;
+    padding-right: 100px;
+    padding-bottom: 120px;
+    padding-left: 30px;
+}
+
+.retangulo {
+    width: 600px;
+    height: 100px;
+    border: 1px solid red;
+    border-radius: 20px;
+    background-color: #FFcccc;
+    margin: 20px auto;
+    text-align: center;
 }
